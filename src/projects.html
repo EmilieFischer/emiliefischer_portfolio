@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat+Subrayada:wght@400;700&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Cedarville+Cursive&family=Rock+Salt&family=Square+Peg&display=swap"
+      rel="stylesheet"
+    />
+    <title>Projects, Emilie Fischer</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <a href="index.html" class="text-2xl">
+        <p><span class="text-[#c9d546]">emilie.</span> portfolio</p>
+        <p>2023.©</p>
+      </a>
+      <!-- Hamburger Menu -->
+      <label class="hamburger-menu">
+        <input type="checkbox" />
+      </label>
+      <aside class="sidebar lg:grid">
+        <nav class="grid lg:grid-col">
+          <a
+            href="index.html"
+            class="py-4 text-6xl lg:text-8xl anton_font hover:text-[#c9d546] btn-one"
+          >
+            <p class="border-b-2 border-white">HOME</p>
+          </a>
+
+          <a
+            href="about.html"
+            class="py-4 text-6xl lg:text-8xl anton_font hover:text-[#c9d546] transition duration-300 ease-in-out btn-one"
+          >
+            <p class="border-b-2 border-white">ABOUT ME</p>
+          </a>
+          <a
+            href="projects.html"
+            class="py-4 text-6xl lg:text-8xl anton_font hover:text-[#c9d546] transition duration-300 ease-in-out btn-one"
+          >
+            <p class="border-b-2 border-white">PROJECTS</p>
+          </a>
+          <a
+            href="contact.html"
+            class="py-4 text-6xl lg:text-8xl anton_font hover:text-[#c9d546] transition duration-300 ease-in-out btn-one"
+          >
+            <p class="border-b-2 border-white">CONTACT</p>
+          </a>
+        </nav>
+      </aside>
+      <!-- Hamburger Menu End -->
+    </header>
+
+    <!-- Home Page Content -->
+    <div class="mx-auto p-4">
+      <div class="lg:px-10">
+        <h1 class="text-7xl lg:text-9xl py-16 lg:py-20 anton_font">
+          / PROJECTS
+        </h1>
+        <div class="grid lg:grid-cols-2 gap-8 lg:gap-4">
+          <a class="container" href="twitter.html">
+            <img src="/images/twitter.png" alt="Avatar" class="w-full h-full" />
+            <div class="overlay">
+              <div class="text">
+                <p class="font-semibold pb-6">TWITTER CLONE</p>
+                <p class="font-thin line-through decoration-1">
+                  FULL STACK PROJECT MADE WITH PYTHON, SQLITE AND TAILWIND CSS
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <a class="container" href="craftstudio.html">
+            <img
+              src="/images/craft_studio.jpeg"
+              alt="Avatar"
+              class="w-full h-full"
+            />
+            <div class="overlay">
+              <div class="text">
+                <p class="font-semibold pb-6">CRAFT STUDIO</p>
+                <p class="font-thin line-through decoration-1">
+                  FINAL EXAM PROJECT AS MULTIMEDIA DESIGNER
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="pt-10 lg:pt-20 flex place-content-center">
+          <a href="contact.html" class="box-1">
+            <button class="spin circle font-thin">CONTACT ME HERE</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="py-20">
+      <div
+        class="flex border-b-2 border-black items-center place-content-between"
+      >
+        <p class="text-9xl anton_font">LET'S TALK!</p>
+        <a href="contact.html">
+          <svg
+            class="h-36"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="#c9d546"
+              d="M6 6v2h8.59L5 17.59L6.41 19L16 9.41V18h2V6z"
+            />
+          </svg>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

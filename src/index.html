@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat+Subrayada:wght@400;700&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Cedarville+Cursive&family=Rock+Salt&family=Square+Peg&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio, Emilie Fischer</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <a href="index.html" class="text-2xl">
+        <p><span class="text-[#c9d546]">emilie.</span> portfolio</p>
+        <p>2023.©</p>
+      </a>
+      <!-- Hamburger Menu -->
+      <label class="hamburger-menu">
+        <input type="checkbox" />
+      </label>
+      <aside class="sidebar lg:grid">
+        <nav class="grid lg:grid-col">
+          <a
+            href="index.html"
+            class="py-4 text-6xl lg:text-8xl anton_font hover:text-[#c9d546] btn-one"
+          >
+            <p class="border-b-2 border-white">HOME</p>
+          </a>
+
+          <a
+            href="about.html"
+            class="py-4 text-6xl lg:text-8xl anton_font hover:text-[#c9d546] transition duration-300 ease-in-out btn-one"
+          >
+            <p class="border-b-2 border-white">ABOUT ME</p>
+          </a>
+          <a
+            href="projects.html"
+            class="py-4 text-6xl lg:text-8xl anton_font hover:text-[#c9d546] transition duration-300 ease-in-out btn-one"
+          >
+            <p class="border-b-2 border-white">PROJECTS</p>
+          </a>
+          <a
+            href="contact.html"
+            class="py-4 text-6xl lg:text-8xl anton_font hover:text-[#c9d546] transition duration-300 ease-in-out btn-one"
+          >
+            <p class="border-b-2 border-white">CONTACT</p>
+          </a>
+        </nav>
+      </aside>
+      <!-- Hamburger Menu End -->
+    </header>
+
+    <!-- Main Content -->
+    <div class="max-w-fit mx-auto p-4">
+      <!-- HERO -->
+      <div class="hero grid place-content-end lg:h-[45rem] pt-16">
+        <div class="grid lg:grid-cols-2 lg:px-10 lg:gap-32">
+          <div class="lg:relative">
+            <div class="lg:absolute lg:bottom-0 lg:left-0">
+              <p class="text-4xl font-light">HELLO, I'M</p>
+              <p class="text-8xl handwritten">Emilie Fischer</p>
+              <p class="text-7xl lg:text-8xl anton_font">
+                <span class="text-[#c9d546]">WEB DEVELOPER</span> STUDENT
+              </p>
+              <div class="lg:flex grid items-center gap-10">
+                <div>
+                  <p class="text-4xl font-light">FROM, COPENHAGEN</p>
+                </div>
+                <div class="pb-5 lg:pb-0">
+                  <img src="/images/arrowdown.svg" class="h-24" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="lg:relative grid justify-center place-items-center">
+            <img src="/images/nino-b32798f0.png" />
+            <div
+              class="lg:absolute rounded-full -left-[-3rem] -top-[12rem] py-16"
+            >
+              <a href="contact.html" class="box-1 place-self-end">
+                <button class="spin circle font-thin">LET'S TALK</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- HERO END -->
+
+      <!-- WHO AM I SECTION -->
+
+      <div class="pb-16 lg:mt-52">
+        <h2 class="text-6xl lg:text-7xl lg:px-10 pb-10 anton_font">
+          / FROM MULTIMEDIA DESIGNER TO WEB DEVELOPER
+        </h2>
+
+        <div class="lg:grid grid-cols-3 lg:px-10 items-center">
+          <p class="text-7xl text-[#c9d546] font-extrabold">"</p>
+          <p class="lg:col-start-1 lg:col-span-2 text-3xl font-light lg:pr-24">
+            I am Emilie,
+            <br />
+            A qualified Multimedia Designer who is presently pursuing advanced
+            studies in order to transition into the field of
+            <span class="text-[#c9d546]">web development</span>. I am currently
+            in my second semester at Copenhagen School of Design and Technology,
+            where I have enrolled in the Web Development Top-Up program.
+            <br />
+            <br />
+          </p>
+
+          <div class="flex justify-center">
+            <a href="about.html" class="box-1 place-self-end">
+              <button class="spin circle font-thin">MORE ABOUT ME</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!--  PROJECTS SECTION -->
+      <div class="pt-20">
+        <h2 class="text-7xl lg:px-10 pb-10 anton_font">/ PROJECTS</h2>
+        <div class="grid lg:grid-cols-2 gap-4 lg:p-4">
+          <a class="container" href="twitter.html">
+            <img src="/images/twitter.png" alt="Avatar" class="w-full h-full" />
+            <div class="overlay">
+              <div class="text">
+                <p class="font-semibold pb-6">TWITTER CLONE</p>
+                <p class="font-thin line-through decoration-1">
+                  FULL STACK PROJECT MADE WITH PYTHON, SQLITE AND TAILWIND CSS
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <a class="container" href="projects.html">
+            <img
+              src="/images/craft_studio.jpeg"
+              alt="Avatar"
+              class="w-full h-full"
+            />
+            <div class="overlay">
+              <div class="text">
+                <p class="font-semibold pb-6">CRAFT STUDIO</p>
+                <p class="font-thin line-through decoration-1">
+                  FINAL EXAM PROJECT AS MULTIMEDIA DESIGNER
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="flex justify-center pt-10">
+          <a href="projects.html" class="box-1 place-self-end">
+            <button class="spin circle font-thin">SEE ALL PROJECTS</button>
+          </a>
+        </div>
+      </div>
+
+      <!--  TOOLS SECTION -->
+
+      <div class="py-20">
+        <h2 class="text-6xl lg:text-7xl lg:px-10 pb-10 anton_font">/ TOOLS</h2>
+        <div class="pb-10">
+          <h3 class="font-semibold text-3xl lg:px-10 py-10">
+            / <span class="text-[#c9d546]"> DEVELOPER </span> TOOLS
+          </h3>
+          <div class="grid grid-cols-2 lg:grid-cols-6 lg:px-10 gap-5 lg:gap-10">
+            <div class="col-span-1">
+              <li
+                class="flex text-lg font-thin border-2 border-[#c9d546] rounded-2xl py-2 px-4"
+              >
+                <img src="/images/PhFileHtmlThin.svg" class="h-6 pr-2" />
+                <p class="text-xl font-thin">HTML</p>
+              </li>
+            </div>
+            <div class="col-span-1">
+              <li
+                class="flex text-lg font-thin border-2 border-[#c9d546] rounded-2xl py-2 px-4"
+              >
+                <img
+                  src="/images/FluentDocumentCss16Regular.svg"
+                  class="h-6 pr-2"
+                />
+                <p class="text-xl font-thin">CSS</p>
+              </li>
+            </div>
+            <div class="col-span-1">
+              <li
+                class="flex text-lg font-thin border-2 border-[#c9d546] rounded-2xl py-2 px-4"
+              >
+                <img
+                  src="/images/TeenyiconsJavascriptOutline.svg"
+                  class="h-6 pr-2"
+                />
+                <p class="text-xl font-thin">JavaScript</p>
+              </li>
+            </div>
+            <div class="col-span-1">
+              <li
+                class="flex text-lg font-thin border-2 border-[#c9d546] rounded-2xl py-2 px-4"
+              >
+                <img
+                  src="/images/TeenyiconsPythonOutline 1.svg"
+                  class="h-6 pr-2"
+                />
+                <p class="text-xl font-thin">Python</p>
+              </li>
+            </div>
+            <div class="col-span-1">
+              <li
+                class="flex text-lg font-thin border-2 border-[#c9d546] rounded-2xl py-2 px-4"
+              >
+                <img src="/images/SimpleIconsSqlite 1.svg" class="h-6 pr-2" />
+                <p class="text-xl font-thin">SQL</p>
+              </li>
+            </div>
+            <div class="col-span-1">
+              <li
+                class="flex text-lg font-thin border-2 border-[#c9d546] rounded-2xl py-2 px-4"
+              >
+                <img
+                  src="/images/TeenyiconsTypescriptOutline 1.svg"
+                  class="h-6 pr-2"
+                />
+                <p class="text-xl font-thin">TypeScript</p>
+              </li>
+            </div>
+            <div class="col-span-1">
+              <li
+                class="flex text-lg font-thin border-2 border-[#c9d546] rounded-2xl py-2 px-4"
+              >
+                <img src="/images/IonLogoDocker 1.svg" class="h-6 pr-2" />
+                <p class="text-xl font-thin">Docker</p>
+              </li>
+            </div>
+            <div class="col-span-1">
+              <li
+                class="flex text-lg font-thin border-2 border-[#c9d546] rounded-2xl py-2 px-4"
+              >
+                <img src="/images/BiFiletypeJson.svg" class="h-6 pr-2" />
+                <p class="text-xl font-thin">JSON</p>
+              </li>
+            </div>
+            <div class="col-span-1">
+              <li
+                class="flex text-lg font-thin border-2 border-[#c9d546] rounded-2xl py-2 px-4"
+              >
+                <img src="/images/TablerBrandSvelte 1.svg" class="h-6 pr-2" />
+                <p class="text-xl font-thin">Svelte</p>
+              </li>
+            </div>
+            <div class="col-span-1">
+              <li
+                class="flex text-lg font-thin border-2 border-[#c9d546] rounded-2xl py-2 px-4"
+              >
+                <img src="/images/BiFiletypeXml.svg" class="h-6 pr-2" />
+                <p class="text-xl font-thin">XML</p>
+              </li>
+            </div>
+            <div class="col-span-1">
+              <li
+                class="flex text-lg font-thin border-2 border-[#c9d546] rounded-2xl py-2 px-4"
+              >
+                <img src="/images/BiFiletypePhp.svg" class="h-6 pr-2" />
+                <p class="text-xl font-thin">PHP</p>
+              </li>
+            </div>
+            <div class="col-span-1">
+              <li
+                class="flex text-lg font-thin border-2 border-[#c9d546] rounded-2xl py-2 px-4"
+              >
+                <img src="/images/CibNetlify 1.svg" class="h-6 pr-2" />
+                <p class="text-xl font-thin">Netlify</p>
+              </li>
+            </div>
+            <div class="col-span-1">
+              <li
+                class="flex text-lg font-thin border-2 border-[#c9d546] rounded-2xl py-2 px-4"
+              >
+                <img src="/images/IonLogoReact 1.svg" class="h-6 pr-2" />
+                <p class="text-xl font-thin">React</p>
+              </li>
+            </div>
+            <div class="col-span-1">
+              <li
+                class="flex text-lg font-thin border-2 border-[#c9d546] rounded-2xl py-2 px-4"
+              >
+                <img
+                  src="/images/next-js-seeklogo.com 1.svg"
+                  class="h-6 pr-2"
+                />
+                <p class="text-xl font-thin">NextJS</p>
+              </li>
+            </div>
+            <div class="col-span-1">
+              <li
+                class="flex text-lg font-thin border-2 border-[#c9d546] rounded-2xl py-2 px-4"
+              >
+                <img src="/images/BasilFlaskAltOutline.svg" class="h-6 pr-2" />
+                <p class="text-xl font-thin">Bottle</p>
+              </li>
+            </div>
+            <div class="col-span-1">
+              <li
+                class="flex text-lg font-thin border-2 border-[#c9d546] rounded-2xl py-2 px-4"
+              >
+                <img
+                  src="/images/vs-code-logo-microsoft-svgrepo-com.svg"
+                  class="h-6 pr-2"
+                />
+                <p class="text-xl font-thin">VS Code</p>
+              </li>
+            </div>
+            <div class="col-span-1">
+              <li
+                class="flex text-lg font-thin border-2 border-[#c9d546] rounded-2xl py-2 px-4"
+              >
+                <img
+                  src="/images/TeenyiconsGitBranchOutline 1.svg"
+                  class="h-6 pr-2"
+                />
+                <p class="text-xl font-thin">Git</p>
+              </li>
+            </div>
+            <div class="col-span-1">
+              <li
+                class="flex text-lg font-thin border-2 border-[#c9d546] rounded-2xl py-2 px-4"
+              >
+                <img
+                  src="/images/TeenyiconsMongodbOutline.svg"
+                  class="h-6 pr-2"
+                />
+                <p class="text-xl font-thin">Mongo DB</p>
+              </li>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="font-semibold text-3xl lg:px-10 py-10">
+          / <span class="text-[#c9d546]">DESIGN </span> TOOLS
+        </h3>
+        <div class="grid grid-cols-2 lg:grid-cols-6 gap-5 lg:gap-10 lg:px-10">
+          <div class="col-span-1">
+            <li
+              class="flex text-lg font-thin border-2 border-[#c9d546] rounded-2xl py-2 px-4"
+            >
+              <img src="/images/SimpleIconsChakraui.svg" class="h-6 pr-2" />
+              <p class="text-xl font-thin">Chakra UI</p>
+            </li>
+          </div>
+          <div class="col-span-1">
+            <li
+              class="flex text-lg font-thin border-2 border-[#c9d546] rounded-2xl py-2 px-4"
+            >
+              <img src="/images/PhFigmaLogo 2.svg" class="h-6 pr-2" />
+              <p class="text-xl font-thin">Figma</p>
+            </li>
+          </div>
+          <div class="col-span-1">
+            <li
+              class="flex text-lg font-thin border-2 border-[#c9d546] rounded-2xl py-2 px-4"
+            >
+              <img src="/images/CibAdobeCreativeCloud 2.svg" class="h-6 pr-2" />
+              <p class="text-xl font-thin">Adobe Cloud</p>
+            </li>
+          </div>
+          <div class="col-span-1">
+            <li
+              class="flex text-lg font-thin border-2 border-[#c9d546] rounded-2xl py-2 px-4"
+            >
+              <img src="/images/BxBxlTailwindCss 1.svg" class="h-6 pr-2" />
+              <p class="text-xl font-thin">Tailwind CSS</p>
+            </li>
+          </div>
+          <div class="col-span-1">
+            <li
+              class="flex text-lg font-thin border-2 border-[#c9d546] rounded-2xl py-2 px-4"
+            >
+              <img src="/images/IcBaselineWordpress.svg" class="h-6 pr-2" />
+              <p class="text-xl font-thin">CMS</p>
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-20">
+      <div
+        class="flex border-b-2 border-black items-center place-content-between"
+      >
+        <p class="text-9xl anton_font">LET'S TALK!</p>
+        <a href="contact.html">
+          <svg
+            class="h-36"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="#c9d546"
+              d="M6 6v2h8.59L5 17.59L6.41 19L16 9.41V18h2V6z"
+            />
+          </svg>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
