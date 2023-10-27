@@ -8,6 +8,8 @@ html,
 body {
   transition: background 0.2s linear;
   scroll-behavior: smooth;
+  overflow-x: hidden !important;
+
   /* display: block; */
 }
 
