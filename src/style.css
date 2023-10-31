@@ -21,6 +21,10 @@ body {
   font-family: "Anton", sans-serif;
 }
 
+.image_radius {
+  border-radius: 1rem;
+}
+
 /******************* HOVER PROJECTS STYLING ********************/
 
 .container {
